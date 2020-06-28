@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Magic Vault</string>
+    <string name="difficulty_1">Chris Ramsay</string>
+    <string name="difficulty_2">Alex Pandrea</string>
+    <string name="difficulty_3">Disturb Reality</string>
+    <string name="difficulty_4">FernandoP1</string>
+    <string name="difficulty_5">Daniel Madison</string>
+
+    <string name="step_edit_indicator_label">Step %1$d</string>
+    <string name="add_a_trick">Add a Trick</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="owner">Owner</string>
+    <string name="steps">Steps</string>
+    <string name="step">Step</string>
+    <string name="save">Save</string>
+    <string name="member1">George Tsomlektsis</string>
+    <string name="member2">George Chorozidis</string>
+    <string name="member3">Marios Nikas</string>
+    <string name="app_desc">Your personal library of magic tricks that can aid you to better understand the magic world :\n\nYou can add your own magic tricks or search our existing library.\n\nLook the details of each step to perfectly execute every aspect of the trick\n\nAdd a YouTube video so you can watch it whenever you feel to.</string>
+    <string name="difficultyLabelPrefix">Difficulty : \ </string>
+    <string name="no_available_steps">No Steps</string>
+    <string name="watch_youtube_video">Watch Video</string>
+    <string name="trick_title">Trick Title</string>
+    <string name="content_description_preview_image">Trick preview image.</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="select_image">Select Image</string>
+    <string name="select_youtube_video">Select Youtube</string>
+    <string name="add_step">Add Step</string>
+    <string name="magic_trick_list">Magic Trick List</string>
+    <string name="application_description_label">Application Description</string>
+    <string name="development_team_label">Development Team</string>
+    <string name="remove">Remove</string>
+    <string name="edit_trick">Edit trick</string>
+    <string name="difficulty_bar">Difficulty Bar</string>
+
+</resources>

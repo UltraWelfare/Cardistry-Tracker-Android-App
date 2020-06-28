@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="420">
+
+    <!-- Change bounds of all shared elements -->
+    <transitionSet>
+        <targets>
+            <target android:targetId="@+id/image_preview" />
+            <target android:targetId="@+id/trick_title_text" />
+            <target android:targetId="@+id/trick_owner_text" />
+            <target android:targetId="@+id/trick_difficulty_bar" />
+        </targets>
+        <changeBounds android:interpolator="@android:interpolator/fast_out_slow_in" />
+    </transitionSet>
+</transitionSet>

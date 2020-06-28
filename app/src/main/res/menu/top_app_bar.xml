@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/about_drop_menu"
+
+        android:title="about" />
+
+    <item
+        android:title="@string/add_a_trick"
+        android:id="@+id/add_trick_button"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="always" />
+    <item
+        android:title="Swap View Mode"
+        android:id="@+id/swap_view_mode"
+        android:iconTint="#ffffff"
+        android:icon="@drawable/stream_view_anim"
+        app:showAsAction="ifRoom" />
+
+</menu>

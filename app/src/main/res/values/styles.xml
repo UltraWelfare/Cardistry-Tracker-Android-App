@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppThemeDetail" parent="AppTheme">
+        <item name="android:windowEnterTransition">@transition/activity_detail_enter</item>
+        <item name="android:windowReturnTransition">@transition/activity_detail_exit</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/activity_shared_enter
+        </item>
+        <item name="android:windowSharedElementReenterTransition">
+            @transition/activity_shared_enter
+        </item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#59000000</item>
+    </style>
+
+    <style name="AppThemeAddEdit" parent="AppTheme">
+        <item name="android:windowEnterTransition">@transition/activity_add_edit_enter</item>
+        <item name="android:statusBarColor">#59606060</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

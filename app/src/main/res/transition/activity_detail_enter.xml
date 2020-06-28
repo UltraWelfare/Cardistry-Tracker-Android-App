@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="450"
+    android:interpolator="@android:interpolator/linear"
+    android:transitionOrdering="together">
+
+    <transitionSet>
+        <targets>
+            <target android:excludeId="@android:id/statusBarBackground" />
+            <target android:excludeId="@+id/trick_difficulty_label" />
+            <target android:excludeId="@+id/watch_youtube_button" />
+        </targets>
+        <transition
+            class="android.transition.Slide"
+            android:interpolator="@android:interpolator/fast_out_slow_in" />
+        <fade
+            android:fadingMode="fade_in"
+            android:startDelay="200" />
+    </transitionSet>
+    <transitionSet>
+        <targets>
+            <target android:targetId="@android:id/statusBarBackground" />
+            <target android:targetId="@+id/trick_difficulty_label" />
+            <target android:targetId="@+id/watch_youtube_button" />
+        </targets>
+        <fade
+            android:fadingMode="fade_in"
+            android:startDelay="200" />
+    </transitionSet>
+</transitionSet>
